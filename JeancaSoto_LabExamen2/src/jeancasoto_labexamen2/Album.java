@@ -45,5 +45,10 @@ public class Album {
     public void setCanciones(ArrayList<Cancion> canciones) {
         this.canciones = canciones;
     }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
     
 }

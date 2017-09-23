@@ -10,13 +10,13 @@ package jeancasoto_labexamen2;
  * @author jeansoto
  */
 public class Cancion {
-    Album album;
+   String album;
     String nombre;
     String autor;
-    Double duracion;
+    int duracion;
     String genero;
 
-    public Cancion(Album album, String nombre, String autor, Double duracion, String genero) {
+    public Cancion(String album, String nombre, String autor, int duracion, String genero) {
         this.album = album;
         this.nombre = nombre;
         this.autor = autor;
@@ -24,11 +24,11 @@ public class Cancion {
         this.genero = genero;
     }
 
-    public Album getAlbum() {
+    public String getAlbum() {
         return album;
     }
 
-    public void setAlbum(Album album) {
+    public void setAlbum(String album) {
         this.album = album;
     }
 
@@ -48,11 +48,11 @@ public class Cancion {
         this.autor = autor;
     }
 
-    public Double getDuracion() {
+    public int getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(Double duracion) {
+    public void setDuracion(int duracion) {
         this.duracion = duracion;
     }
 
@@ -63,5 +63,15 @@ public class Cancion {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+//    @Override
+//    public String toString() {
+//        return "Nombre:" + nombre ;
+//    }
+//    
+//    @Override
+//    public String toString() {
+//        return "album:" + album +"\n"+ "nombre:" + nombre +"\n"+ "autor:" + autor + "\n"+ "duracion:" + duracion + "\n" +"genero:" + genero ;
+//    }
     
 }
