@@ -16,7 +16,8 @@ public class Album {
     String nombre;
     String artista;
     ArrayList <Cancion> canciones = new ArrayList();
-
+ private static final long SerialVersionUID = 000L;
+ 
     public Album(String nombre, String artista) {
         this.nombre = nombre;
         this.artista = artista;

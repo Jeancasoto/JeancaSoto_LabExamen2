@@ -15,6 +15,8 @@ public class Cancion {
     String autor;
     int duracion;
     String genero;
+    
+             private static final long SerialVersionUID = 000L;;
 
     public Cancion(String album, String nombre, String autor, int duracion, String genero) {
         this.album = album;
